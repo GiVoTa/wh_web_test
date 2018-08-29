@@ -46,7 +46,7 @@ exports.config = {
         //
         browserName: 'chrome',
         chromeOptions: {
-            args: [/*'--headless', '--disable-gpu', */'--window-size=1920,1080']
+            args: ['--headless', '--disable-gpu', '--window-size=1920,1080']
         }
 
     }],
@@ -138,7 +138,7 @@ exports.config = {
     // See the full list at http://mochajs.org/
     mochaOpts: {
         ui: 'bdd',
-        timeout: 20000
+        timeout: 50000
     },
     //
     // =====
