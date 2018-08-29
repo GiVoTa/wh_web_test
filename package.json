@@ -1,0 +1,28 @@
+{
+  "name": "william_hill_project",
+  "version": "1.0.0",
+  "description": "A project for William Hill",
+  "main": "wdio.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "webdriverio": "^4.13.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-webdriverio": "^0.4.3",
+    "chromedriver": "^2.41.0",
+    "mochawesome-report-generator": "^2.3.2",
+    "wdio-chromedriver-service": "^0.1.3",
+    "wdio-dot-reporter": "0.0.10",
+    "wdio-mocha-framework": "^0.6.3",
+    "wdio-mochawesome-reporter": "^1.3.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "generateMochawesome": "marge ~/William_Hill_Project/mocha_output/wdiomochawesome.json --reportTitle 'Result'"
+  },
+  "author": "",
+  "license": "ISC"
+}
