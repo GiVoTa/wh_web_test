@@ -21,3 +21,6 @@
  ./node_modules/mochawesome-report-generator/bin/cli.js mocha_output/wdiomochawesome.json
  ```
  and access the wdiomochawesome.html report in the newly created mochawesome-report folder.
+
+## Notes
+Due to what I believe being the fault of the standalone selenium server, certain tests either timeout globally or on grabbing an element from time to time. If that happens, simply re-run. Around 8/10 times the tests run without any issues
