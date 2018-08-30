@@ -2,7 +2,7 @@ var MainPage = require('../pageobjects/main.page');
 var assert = require('assert');
 var expect = require('chai').expect;
 
-describe('Betting Page - User', function() {
+describe('Betting Page', function() {
 	it('should create cdb cookie after user accepts cookies policy', function() {
         MainPage.open();
         browser.waitForVisible(MainPage.cookieBtn.selector, 7000);
